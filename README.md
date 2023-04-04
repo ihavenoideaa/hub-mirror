@@ -2,7 +2,7 @@
 
 使用 docker.io 或其他镜像服务来提供（但不限于） gcr.io、registry.k8s.io、k8s.gcr.io、quay.io、ghcr.io 等国外镜像加速下载服务
 
-[docker hub](https://hub.docker.com/) 可以[更换为国内源](https://blog.csdn.net/zpg13579/article/details/126039507)，因此镜像的拉取速度较快，但是其他的镜像仓库，例如 github 的 镜像仓库 ghcr.io，国内机器拉取镜像速度巨慢无比。可以通过可以正常访问这类镜像仓库的机器（例如 Github Action）来拉取镜像，再将镜像上传到 docker hub
+[docker hub](https://hub.docker.com/) 可以[更换为国内源](https://blog.csdn.net/zpg13579/article/details/126039507)，因此镜像的拉取速度较快，但是其他的镜像仓库，例如 github 的 镜像仓库 ghcr.io，国内机器拉取镜像速度巨慢无比。通过可以正常访问这类镜像仓库的机器（例如 Github Action）来拉取镜像，再将镜像上传到 docker hub，实现正常速度拉取镜像
 
 为减少重复请求，合理利用资源，请提前在 issues 搜索镜像是否已转换过
 
