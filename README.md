@@ -2,9 +2,9 @@
 
 使用 docker.io 或其他镜像服务来提供（但不限于） gcr.io、registry.k8s.io、k8s.gcr.io、quay.io、ghcr.io 等国外镜像加速下载服务
 
-为减少重复请求，合理利用资源，建议提前在 issues 搜索镜像是否已转换过
+[docker hub](https://hub.docker.com/) 可以[更换为国内源](https://blog.csdn.net/zpg13579/article/details/126039507)，因此镜像的拉取速度较快，但是其他的镜像仓库，例如 github 的 镜像仓库 ghcr.io，国内机器拉取镜像速度巨慢无比。可以通过可以正常访问这类镜像仓库的机器（例如 Github Action）来拉取镜像，再将镜像上传到 docker hub
 
-示例：[issues搜索gcr.io/google-samples/microservices-demo/emailservice:v0.3.5](https://github.com/togettoyou/hub-mirror/issues?q=gcr.io%2Fgoogle-samples%2Fmicroservices-demo%2Femailservice%3Av0.3.5)
+为减少重复请求，合理利用资源，请提前在 issues 搜索镜像是否已转换过
 
 # 原理
 
