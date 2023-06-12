@@ -17,6 +17,8 @@
 要求：严格按照模板规范提交，参考： [成功案例](https://github.com/togettoyou/hub-mirror/issues/1)
 ，[失败案例](https://github.com/togettoyou/hub-mirror/issues/2)
 
+> 当任务失败时，可以查看具体失败原因并修改 issues 主体内容，无需新建 issues
+
 限制：每次提交最多 11 个镜像地址（为啥是11个？因为我的第一次需求刚好要转换11个镜像🤣）
 
 本人 Docker 账号有每日镜像拉取限额，请勿滥用
